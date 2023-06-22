@@ -1474,6 +1474,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2829,7 +2838,7 @@ version = "2.1.2"
 dependencies = [
  "anyhow",
  "indexmap",
- "itertools",
+ "itertools 0.11.0",
  "once_cell",
  "parking_lot",
  "snarkvm",
@@ -2911,7 +2920,7 @@ dependencies = [
  "futures",
  "futures-util",
  "indexmap",
- "itertools",
+ "itertools 0.11.0",
  "linked-hash-map",
  "once_cell",
  "parking_lot",
@@ -2989,7 +2998,7 @@ dependencies = [
  "hashbrown 0.14.0",
  "hex",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "parking_lot",
  "rand",
  "rand_chacha",
@@ -3061,7 +3070,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b64c67a24ec930a4d4b81c523baf4d6f7d6511dd6e2e623bb2804b3c7d2a22cc"
 dependencies = [
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "nom",
  "num-traits",
  "once_cell",
@@ -3264,7 +3273,7 @@ checksum = "41d029170380304449822bfdbc09caefab637d209e916438e0f54ed3a3ba3ebd"
 dependencies = [
  "anyhow",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "lazy_static",
  "once_cell",
  "paste",
@@ -3288,7 +3297,7 @@ checksum = "fce245185c496bb18fc4f9670b378b7063c02719d12936ccbbf59105943c9966"
 dependencies = [
  "anyhow",
  "bech32",
- "itertools",
+ "itertools 0.10.5",
  "nom",
  "num-traits",
  "rand",
@@ -3435,7 +3444,7 @@ dependencies = [
  "aleo-std",
  "anyhow",
  "derivative",
- "itertools",
+ "itertools 0.10.5",
  "num-traits",
  "rand",
  "rayon",
@@ -3476,7 +3485,7 @@ dependencies = [
  "curl",
  "hex",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "lazy_static",
  "paste",
  "rand",
@@ -3499,7 +3508,7 @@ dependencies = [
  "blake2",
  "colored",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "once_cell",
  "parking_lot",
  "paste",
@@ -3532,7 +3541,7 @@ dependencies = [
  "anyhow",
  "bincode 1.3.3",
  "blake2",
- "itertools",
+ "itertools 0.10.5",
  "rayon",
  "serde_json",
  "snarkvm-algorithms",
